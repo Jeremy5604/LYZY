@@ -137,11 +137,6 @@ def runmusic():
         talk('Buscando ' + dato)
         informacion = wikipedia.summary(dato, 1)
         talk(informacion)
-    elif 'yexalem' in mensaje or 'saluda' in mensaje:
-        talk("Hola yexalem, soy LIZY , el asistente personal de Jeremy, como su asistente quiero su bienestar."
-             "Por favor, podrías darle algunos consejos para que deje aquel estado decaido en el que se encuentra."
-             "Así la pasa la mayor parte de su vida este burro. "
-             "Gracias y cuidate yexalem")
 
     else:
         talk('No se reconoció el comando')
