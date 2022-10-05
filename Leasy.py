@@ -1,3 +1,6 @@
+#AÚN NO ESTÁ TERMINADO, TIENE ERRORES
+
+
 from datetime import datetime
 import speech_recognition as sr #Clase para escuchar comandos de voz
 import pyttsx3  #Clase para que Leasy responda con palabras verbales
